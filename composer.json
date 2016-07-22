@@ -1,0 +1,29 @@
+{
+    "name": "beeta-dev/ext-quickavatar",
+    "description": "Beeta Quiack Avatar",
+    "type": "flarum-extension",
+    "authors": [{
+        "name": "blurkness",
+        "email": "blurkness@gmail.com"
+    }],
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Beeta Quick Avatar",
+            "icon": {
+                "name": "quote-left",
+                "backgroundColor": "#14191F", 
+                "color": "#E7712E"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Beeta\\Quick\\Avatar\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
